@@ -1,0 +1,138 @@
+body {
+  background-color: #f9f9f9;
+  color: white;
+  font-family: 'Quando', serif;
+  font-size: 24px;
+}
+body  .company-Name{
+  font-size: 36px;
+  text-align: end;
+  color: black;
+}
+#navbar{
+  color: black;
+}
+#logo{
+  width: 110px;
+  height: 94px;
+}
+#splash-text{
+  background-color: #030809;
+  font-size: 64px;
+  font-family: 'Epilogue', sans-serif;
+
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col {
+  text-decoration: underline;
+}
+.top-buffer{
+  margin-top: 1%;
+
+}
+.light-blue{
+  background-color: #021C24;
+  font-size: 64px;
+  font-family: 'Epilogue', sans-serif;
+}
+.dark-blue{
+  background-color: #030809;
+  font-size: 64px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.red{
+  background-color: #6D0C0C;
+  font-size: 64px;
+  font-family: 'Epilogue', sans-serif;
+}
+@media (max-width: 576px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 12px;
+  }
+  .light-blue{
+    background-color: #021C24;
+    font-size: 32px;
+    font-family: 'Epilogue', sans-serif;
+  }
+  .dark-blue{
+    background-color: #030809;
+    font-size: 32px;
+    font-family: 'Epilogue', sans-serif;
+  }
+  .red{
+    background-color: #6D0C0C;
+    font-size: 32px;
+    font-family: 'Epilogue', sans-serif;
+  }
+  #splash-text{
+    display: none;
+  }
+}
+  @media (max-width: 768px){
+    #logo{
+      width: 55px;
+      height: 47px;
+    }
+    body {
+      font-size: 32px;
+    }
+    body  .company-Name{
+      text-align: center;
+      font-size: 18px;
+    }
+    .light-blue{
+      background-color: #021C24;
+      font-size: 36px;
+      font-family: 'Epilogue', sans-serif;
+    }
+    .dark-blue{
+      background-color: #030809;
+      font-size: 36px;
+      font-family: 'Epilogue', sans-serif;
+    }
+    .red{
+      background-color: #6D0C0C;
+      font-size: 36px;
+      font-family: 'Epilogue', sans-serif;
+    }
+}
+@media (max-width: 1024px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 24px;
+  }
+  .light-blue{
+    background-color: #021C24;
+    font-size: 36px;
+    font-family: 'Epilogue', sans-serif;
+  }
+  .dark-blue{
+    background-color: #030809;
+    font-size: 36px;
+    font-family: 'Epilogue', sans-serif;
+  }
+  .red{
+    background-color: #6D0C0C;
+    font-size: 36px;
+    font-family: 'Epilogue', sans-serif;
+  }
+}

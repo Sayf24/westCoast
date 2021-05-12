@@ -1,0 +1,107 @@
+body {
+  background-color: #f9f9f9;
+  color: black;
+  font-family: 'Esteban', serif;
+
+  font-size: 24px;
+  box-sizing: border-box;
+}
+body  .company-Name{
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+a{
+  color: black;
+}
+#general{
+  position: relative;
+  text-align: center;
+  background-color: #FF9D7F;
+  border-radius: 30px;
+  color: black;
+
+}
+.contact-info{
+  margin-top: 15rem;
+}
+.contact-info-header{
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.contact-info-subHeader{
+  font-size: 3em;
+
+}
+.bkg-img{
+  position: absolute;
+  height: 95%;
+  width: 100%;
+  overflow: hidden;
+}
+.row{
+  position: relative;
+}
+#navbar{
+  color: black;
+  background-color: #f9f9f9;
+  font-family: 'Epilogue', serif;
+
+}
+
+#logo{
+  width: 70px;
+  height: 70px;
+}
+@media (max-width: 576px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 12px;
+  }
+}
+  @media (max-width: 768px){
+    #logo{
+      width: 55px;
+      height: 47px;
+    }
+    .splashScreen{
+      font-size: 3rem;
+    }
+    .bkg-img{
+      position: absolute;
+      height: 70%;
+      width: 100%;
+      overflow: hidden;
+    }
+    body {
+      font-size: 32px;
+    }
+    body  .company-Name{
+      text-align: center;
+      font-size: 18px;
+    }
+
+}
+@media (max-width: 1024px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  .splashScreen{
+    font-size: 3rem;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 24px;
+  }
+}

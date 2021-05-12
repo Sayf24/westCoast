@@ -1,0 +1,116 @@
+body {
+  background-color: #f9f9f9;
+  color: black;
+  font-family: 'Esteban', serif;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+body  .company-Name{
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+a{
+  color: black;
+}
+.black-background{
+  background-color: black;
+  position: relative;
+  pointer-events: none;
+
+}
+.splashScreen{
+  color: white;
+  font-size: 4rem;
+}
+.header{
+  position: relative;
+  text-align: center;
+  margin-top: 45px;
+}
+.splashScreen::before{
+  content: "";
+  position: absolute;
+  background-image: url("/pics/workshop.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 20%;
+}
+.lowerHalf{
+  background-color: #7FCCFF;
+}
+.contentText{
+  background-color: #f9f9f9;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+
+}
+.noGutters {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right:  0;
+}
+#navbar{
+  color: black;
+  background-color: #f9f9f9;
+  font-family: 'Epilogue', serif;
+
+}
+
+#logo{
+  width: 70px;
+  height: 70px;
+}
+@media (max-width: 576px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 12px;
+  }
+}
+  @media (max-width: 768px){
+    #logo{
+      width: 55px;
+      height: 47px;
+    }
+    .splashScreen{
+      font-size: 3rem;
+    }
+    body {
+      font-size: 32px;
+    }
+    body  .company-Name{
+      text-align: center;
+      font-size: 18px;
+    }
+
+}
+@media (max-width: 1024px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  .splashScreen{
+    font-size: 3rem;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 24px;
+  }
+}

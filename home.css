@@ -1,0 +1,139 @@
+body {
+  background-color: #f9f9f9;
+  color: black;
+  font-family: 'Esteban', serif;
+
+  font-size: 24px;
+  box-sizing: border-box;
+}
+body  .company-Name{
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+a{
+  color: black;
+}
+#navbar{
+  color: black;
+  background-color: #f9f9f9;
+  font-family: 'Epilogue', serif;
+}
+
+#logo{
+  width: 70px;
+  height: 70px;
+}
+#general{
+  position: relative;
+  font-size:70px;
+  color: black;
+  text-align: center;
+  background-color: #FF9D7F;
+  border-radius: 30px;
+}
+#home{
+  background-image: url("/pics/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#overlayedImage{
+  position: absolute;
+  padding-right: 0;
+  display: none;
+
+}
+#lowerBackground{
+  background-color: #7FCCFF;
+  position: relative;
+
+}
+
+#reviews{
+  background-image: url("/pics/artboard1.svg");
+  background-size: cover;
+  background-position: center;
+}
+#reviewHeading{
+  padding-bottom: 1rem;
+  font-size: 48px;
+}
+.carousel-item{
+  height:30rem;
+  background-color: black;
+  position: relative;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.overlay-image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: .5;
+}
+.no-gutters {
+  padding-left: 0;
+  padding-right:  0;
+}
+@media (max-width: 576px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 12px;
+  }
+
+}
+  @media (max-width: 768px){
+    #logo{
+      width: 55px;
+      height: 47px;
+    }
+    body {
+      font-size: 32px;
+    }
+    body  .company-Name{
+      text-align: center;
+      font-size: 18px;
+    }
+
+}
+@media (max-width: 1024px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 24px;
+  }
+  #general{
+    font-size: 32px;
+  }
+  #general h1{
+    font-size: 24px;
+  }
+
+}

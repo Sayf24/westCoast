@@ -1,0 +1,155 @@
+body {
+  background-color: #f9f9f9;
+  color: black;
+  font-family: 'Esteban', serif;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+body  .company-Name{
+  font-family: 'Epilogue', serif;
+
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+a{
+  color: black;
+}
+.black-background{
+  background-color: black;
+  position: relative;
+  display: none;
+  pointer-events: none;
+}
+.splashScreen{
+  color: white;
+  font-size: 4rem;
+}
+.divider{
+  margin-top: 50px;
+}
+.header{
+  position: relative;
+}
+.splashScreen::before{
+  content: "";
+  position: absolute;
+  background-image: url(file:///D:/pics/warehouse.jpg);
+  background-position: center;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 20%;
+}
+.lowerHalf{
+  background-color: #7FCCFF;
+}
+.service{
+  background-color: #f9f9f9;
+  box-shadow: 10px 5px 5px grey;
+
+}
+.serviceDummy{
+  background-color: #f9f9f9;
+  height: 0px;
+}
+.serviceHeading{
+  font-size: 3rem;
+}
+.serviceBodyText{
+  font-size: 1.5rem;
+}
+.carousel-item{
+  height:30rem;
+  background-color: black;
+  position: relative;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+.carousel-inner{
+  width: 100%;
+  height: 30vh;
+}
+.overlay-image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: .5;
+}
+.no-gutters {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right:  0;
+}
+#navbar{
+  color: black;
+  background-color: #f9f9f9;
+  font-family: 'Epilogue', serif;
+
+}
+
+#logo{
+  width: 70px;
+  height: 70px;
+}
+@media (max-width: 576px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 12px;
+  }
+}
+  @media (max-width: 768px){
+    #logo{
+      width: 55px;
+      height: 47px;
+    }
+    .splashScreen{
+      font-size: 3rem;
+    }
+    body {
+      font-size: 32px;
+    }
+    body  .company-Name{
+      text-align: center;
+      font-size: 18px;
+    }
+
+}
+@media (max-width: 1024px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  .splashScreen{
+    font-size: 3rem;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 24px;
+  }
+}
