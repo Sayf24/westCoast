@@ -115,6 +115,13 @@ a{
       text-align: center;
       font-size: 18px;
     }
+    .reviewImg{
+      display: none;
+    }
+    .freeBtn{
+      margin-bottom: 5px;
+    }
+
 
 }
 @media (max-width: 1024px){
@@ -135,5 +142,6 @@ a{
   #general h1{
     font-size: 24px;
   }
+
 
 }
