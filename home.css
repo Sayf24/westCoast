@@ -3,16 +3,22 @@ body {
   color: black;
   font-family: 'Esteban', serif;
 
-  font-size: 24px;
+  font-size: 14px;
   box-sizing: border-box;
 }
 body  .company-Name{
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
   color: black;
 }
 a{
   color: black;
+}
+h2{
+  font-size: 1rem;
+}
+h3{
+  font-size: 1rem;
 }
 #navbar{
   color: black;
@@ -26,7 +32,7 @@ a{
 }
 #general{
   position: relative;
-  font-size:70px;
+  font-size:2em;
   color: black;
   text-align: center;
   background-color: #FF9D7F;
@@ -45,7 +51,6 @@ a{
 
 }
 #lowerBackground{
-  background-color: #7FCCFF;
   position: relative;
 
 }
@@ -89,7 +94,7 @@ a{
   padding-left: 0;
   padding-right:  0;
 }
-@media (max-width: 576px){
+@media (min-width: 576px){
   #logo{
     width: 55px;
     height: 47px;
@@ -100,31 +105,44 @@ a{
   body  .company-Name{
     text-align: center;
     font-size: 12px;
-  }
+  } #general{
+      font-size: 2rem;;
+    }
+
+
 
 }
-  @media (max-width: 768px){
+  @media (min-width: 768px){
     #logo{
       width: 55px;
       height: 47px;
     }
     body {
-      font-size: 32px;
+      font-size: 1rem;
     }
     body  .company-Name{
       text-align: center;
       font-size: 18px;
     }
+
+    .freeBtn{
+      margin-bottom: 5px;
+    }  #general{
+        font-size: 1.5rem;;
+      }
+      h2{
+        font-size: 1rem;
+      }
+      h3{
+        font-size: 1rem;
+      }
+}
+  @media (max-width: 768px){
     .reviewImg{
       display: none;
     }
-    .freeBtn{
-      margin-bottom: 5px;
-    }
-
-
-}
-@media (max-width: 1024px){
+  }
+@media (min-width: 1024px){
   #logo{
     width: 55px;
     height: 47px;
@@ -137,10 +155,60 @@ a{
     font-size: 24px;
   }
   #general{
-    font-size: 32px;
+    font-size: 1.5rem;;
   }
   #general h1{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1700px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
     font-size: 24px;
+  }
+  #general{
+    font-size: 3.5rem;
+  }
+  #general h1{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1920px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 1.5rem;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 36px;
+  }
+  #general{
+    font-size: 4.5rem;
+  }
+  #general h1{
+    font-size: 18px;
   }
 
 
