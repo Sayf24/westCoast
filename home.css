@@ -7,9 +7,10 @@ body {
   box-sizing: border-box;
 }
 body  .company-Name{
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
   color: black;
+  align-items: center;
 }
 a{
   color: black;
@@ -36,7 +37,6 @@ h3{
   color: black;
   text-align: center;
   background-color: #FF9D7F;
-  border-radius: 30px;
 }
 #home{
   background-image: url("/pics/background1.png");
@@ -93,6 +93,10 @@ h3{
 .no-gutters {
   padding-left: 0;
   padding-right:  0;
+}
+.reviewsText{
+  font-size: 1.5rem;
+
 }
 @media (min-width: 576px){
   #logo{
@@ -155,7 +159,7 @@ h3{
     font-size: 24px;
   }
   #general{
-    font-size: 1.5rem;;
+    font-size: 2rem;;
   }
   #general h1{
     font-size: 18px;
@@ -205,11 +209,13 @@ h3{
     font-size: 36px;
   }
   #general{
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
-  #general h1{
-    font-size: 18px;
+  h2{
+    font-size: 3rem;
   }
-
+  h3{
+    font-size: 3rem;
+  }
 
 }

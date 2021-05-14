@@ -1,9 +1,9 @@
 body {
-  background-color: #f9f9f9;
+  background-color: #7FCCFF;
   color: black;
   font-family: 'Esteban', serif;
 
-  font-size: 24px;
+  font-size: 14px;
   box-sizing: border-box;
 }
 body  .company-Name{
@@ -26,11 +26,11 @@ a{
   margin-top: 15rem;
 }
 .contact-info-header{
-  font-size: 4em;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 .contact-info-subHeader{
-  font-size: 3em;
+  font-size: 2rem;
 
 }
 .bkg-img{
@@ -41,6 +41,12 @@ a{
 }
 .row{
   position: relative;
+}
+.noGutters {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right:  0;
 }
 #navbar{
   color: black;
@@ -53,20 +59,20 @@ a{
   width: 70px;
   height: 70px;
 }
-@media (max-width: 576px){
+@media (min-width: 576px){
   #logo{
     width: 55px;
     height: 47px;
   }
   body {
-    font-size: 14px;
+    font-size: 1rem;
   }
   body  .company-Name{
     text-align: center;
     font-size: 12px;
   }
 }
-  @media (max-width: 768px){
+  @media (min-width: 768px){
     #logo{
       width: 55px;
       height: 47px;
@@ -74,22 +80,17 @@ a{
     .splashScreen{
       font-size: 3rem;
     }
-    .bkg-img{
-      position: absolute;
-      height: 70%;
-      width: 100%;
-      overflow: hidden;
-    }
     body {
-      font-size: 32px;
+      font-size: 1rem;
     }
     body  .company-Name{
       text-align: center;
       font-size: 18px;
     }
 
+
 }
-@media (max-width: 1024px){
+@media (min-width: 1024px){
   #logo{
     width: 55px;
     height: 47px;
@@ -104,7 +105,54 @@ a{
     text-align: center;
     font-size: 24px;
   }
-  .contact-info{
-    margin-top: 6rem;
+  .contact-info-header{
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  .contact-info-subHeader{
+    font-size: 1.5em;
+
+  }
+}
+@media (min-width: 1700px){
+  #logo{
+    width: 55px;
+    height: 47px;
+  }
+  body {
+    font-size: 14px;
+  }
+  body  .company-Name{
+    text-align: center;
+    font-size: 24px;
+  }
+  .contact-info-header{
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  .contact-info-subHeader{
+    font-size: 2em;
+
+  }
+}
+@media (min-width: 1920px){
+  body .company-Name {
+      text-align: center;
+      font-size: 36px;
+  }
+  body {
+    font-size: 1.5rem;
+  }
+  body .company-Name {
+      text-align: center;
+      font-size: 36px;
+  }
+  .contact-info-header{
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+  .contact-info-subHeader{
+    font-size: 3em;
+
   }
 }
